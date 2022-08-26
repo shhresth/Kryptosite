@@ -1,0 +1,122 @@
+/* navbar start */
+header {
+  background-color: #192734;
+  border: 1px solid #8899a6;
+}
+
+nav li {
+  display: inline;
+}
+
+a:hover{
+  color: antiquewhite;
+}
+
+
+nav li a{
+  margin-right: 3vw;
+}
+
+li:nth-child(2){
+  margin-left: 30vw;
+}
+
+nav li h1 {
+  display: inline;
+}
+
+
+nav li a{
+  text-decoration: none;
+  color: #8899a6;
+}
+
+/* navbar end */
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Input start */
+
+select{
+  outline: none;
+  width: 10%;
+  padding: 2vh 7vw;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  background-color: lightblue;
+  margin: 15vh 0 0 15vw;
+}
+
+#btn-submit{
+  /* margin: 3vh 0 0 46vw;s */
+  margin-left: 2vw;
+  padding: 2vh 3vw;
+  background-color:dodgerblue;
+  border-radius: 15px;
+  /* color: aliceblue; */
+}
+
+#btn-submit:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+input:nth-child(2){
+  outline: none;
+  padding: 2vh 0.5vw;
+  background-color: lightblue;
+}
+
+input:nth-child(3){
+  outline: none;
+  padding: 2vh 8vw;
+  background-color: lightblue;
+  border-radius: 0 15px 15px 0;
+}
+
+input[type=text]:focus{
+}
+/* Input end */
+
+/* ----------------------------------------------------------------------------------- */
+
+/* Output start */
+
+#output{
+  height: 35vh;
+  width: 68%;
+  margin: 5vh 0  0 14.5vw ;
+  border-radius: 15px;
+  border: 3px dashed yellowgreen;
+  background-color: #192734;
+}
+
+#output h3{
+  margin-left: 2vw;
+}
+
+
+/* Output end */
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* Footer start */
+
+footer{
+ 
+  position: fixed;
+  /* left: 0; */
+  bottom: 0; 
+  width: 100%;
+  text-align: center;
+}
+
+/* Footer end */
+
+
+/* background color: #15202b
+  content: #192734
+  hover color:#22303c
+  primary text :#ffffff
+  secondary text:#8899a6
+*/
